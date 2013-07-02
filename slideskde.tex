@@ -1,0 +1,225 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+\mode<presentation>
+{
+  \usetheme{Boadilla} % você pode escolher o tema de sua preferência! :)
+  \setbeamercovered{transparent} 
+}
+\usepackage[portuguese]{babel} % usa palavras-chave em português
+\usepackage[utf8]{inputenc} % permite incluir acentos no código
+
+\title[KDE]{Como contribuir para o KDE sem escrever \\nenhuma linha de código}
+%\author{}
+\date{FISL14}
+
+% Figura no slide-título. A posição desta figura no slide é determinada
+% pelo tema escolhido em \usetheme.
+\titlegraphic{\includegraphics[height=4cm]{konqi.png}}
+
+\newif\ifplacelogo % criamos um condicional para usar o logotipo
+                   % ou não, dependendo do slide
+\placelogotrue 
+\logo{\ifplacelogo\includegraphics[height=1.5cm]{konqi.png}\fi} % replace with your own command
+
+\begin{document}
+\placelogofalse
+\begin{frame}
+   % Title
+   \titlepage
+\end{frame}
+\placelogotrue
+\begin{frame}
+   \frametitle{A comunidade KDE}
+   \begin{itemize}
+      \item 14 de outubro - 16 anos de KDE
+      \item Estamos na versão 4.9.x
+      \item Temos versões para desktop e mobile (plasma desktop, plasma netbook, plasma active)
+      \item Cerca de 600 contribuidores (código) ativos atualmente
+      \item Cerca de 2 mil contribuidores considerando todas as áreas (tradução, promoção, documentação etc)
+      \item 202 listas de discussão
+      \item 108 times de tradução, 30-40 idiomas estão razoavelmente bem traduzidos
+      \item \emph{E não chegamos até aqui somente com a ajuda de programadores!}
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Por que contribuir com o KDE?}
+   \begin{itemize}
+      \item Questões de sociabilidade: Para se envolver mais diretamente na comunidade que produz o software que você usa e gosta
+      \item Questões de conhecimento: Para aprender/ensinar coisas novas seja qual for a sua área de atuação; desenvolver suas habilidades
+      \item Questões técnicas: Para ajudar a produzir softwares livres cada vez melhores.
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Como contribuir?}
+   \begin{itemize}
+      \item Artwork/Design
+      \item Promoção
+      \item Tradução
+      \item Documentação
+      \item Teste
+      \item Acessibilidade
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Artwork/Design}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            O KDE também precisa agradar aos olhos!
+         \end{center}
+      \end{block}
+   \end{center}
+   \begin{itemize}
+      \item Icones
+      \item Telas de login
+      \item Wallpapers
+      \item Temas
+      \item Artes de camisetas/Eventos/Brindes
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Artwork/Design}
+   Por onde começar?
+   \begin{itemize}
+      \item Se informar sobre as diretrizes de arte/identidade visual do KDE
+      \item Entrar no canal {\tt{\#kde-artists}} no {\tt{irc.freenode.net}}
+      \item Lista de discussão
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Promoção}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            O KDE também precisa ser divulgado!
+         \end{center}
+      \end{block}
+   \end{center}
+   \begin{itemize}
+      \item Escrever textos sobre o KDE em blogs e sites e/ou nos sites do próprio KDE
+      \item Participar de eventos representando o KDE
+      \item Ajudar a encontrar novos colaboradores
+      \item Divulgar o KDE nas redes sociais, etc
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Promoção}
+   Por onde começar?
+   \begin{itemize}
+      \item Participar da lista de discussão do promo
+      \item Entrar no canal {\tt{\#kde-promo}} no {\tt{irc.freenode.net}}
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Tradução}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            O KDE também precisa ser traduzido para nossa língua!
+         \end{center}
+      \end{block}
+   \end{center}
+   \begin{itemize}
+      \item Tradução offline de GUI e DOC (Lokalize)
+      \item Tradução online e offline de textos e wikis do KDE.
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Tradução}
+   Por onde começar?
+   \begin{itemize}
+      \item Participar da lista de discussão
+      \item Entrar no canal {\tt{\#kde-i18n}} no {\tt{irc.freenode.net}}
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Documentação}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            O KDE também precisa que seus programas sejam melhor entendidos!
+         \end{center}
+      \end{block}
+   \end{center}
+   \begin{itemize}
+      \item Ajuda de contexto
+      \item Manual dos aplicativos
+      \item Documentação de API
+      \item Dicas 
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Documentação}
+   Por onde começar?
+   \begin{itemize}
+      \item Participar da lista de discussão
+      \item Entrar no canal {\tt{\#kde-docs}} no {\tt{irc.freenode.net}}
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Testes}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            O KDE também precisa de caçadores de bugs!
+         \end{center}
+      \end{block}
+   \end{center}
+   \begin{itemize}
+      \item Verificar bugs e reportá-los
+   \end{itemize}
+   
+   Por onde começar?
+   \begin{itemize}
+      \item Visitar o site: {\tt{https://bugs.kde.org/}}
+      \item Entrar no canal {\tt{\#kde-bugs}} no {\tt{irc.freenode.org}}
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Acessibilidade}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            O KDE também precisa ser acessível a todos!            
+         \end{center}
+      \end{block}
+   \end{center}
+   \begin{itemize}
+      \item Avaliação e documentação dos recursos de acessibilidade do KDE.
+   \end{itemize}
+
+   Por onde começar?
+   \begin{itemize}
+      \item Participar da lista de discussão
+      \item Entrar no canal {\tt{\#kde-accessibility}} no {\tt{irc.freenode.net}}
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{Join the game!}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            {\tt{http://jointhegame.kde.org}}
+         \end{center}
+      \end{block}
+   \end{center}
+\end{frame}
+\begin{frame}
+   \frametitle{Links Importantes}
+   \begin{itemize}
+      \item Listas de discussão: {\tt{https://mail.kde.org/mailman/listinfo/kde-br}}
+      \item Canais do irc: {\tt{\#kde}}, {\tt{\#kde-brasil}}
+      \item Redes sociais: {\tt{{@}kdebrasil}}
+      \item {\tt{techbase.kde.org}} e {\tt{userbase.kde.org}}
+   \end{itemize}
+\end{frame}
+\begin{frame}
+   \frametitle{}
+   \begin{center}
+      \begin{block}{}
+         \begin{center}
+            \Huge{Perguntas?}
+         \end{center}
+      \end{block}
+   \end{center}
+\end{frame}
+\end{document}
