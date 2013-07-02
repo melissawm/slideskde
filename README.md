@@ -6,7 +6,7 @@ Modelo de apresentação em LaTeX/Beamer sobre o KDE.
 Para rodar, em qualquer sistema Linux:
 
 UTILIZANDO O KDE/KILE:
-======================
+----------------------
 
 1) Instale o Kile, caso ainda não esteja instalado. Com esse passo, você garante a instalação dos pacotes 
 necessário para rodar o LaTeX e gerar a apresentação em PDF.
@@ -18,7 +18,7 @@ necessário para rodar o LaTeX e gerar a apresentação em PDF.
 4) Vá até Build -> View -> ViewPDF para abrir o PDF resultante no visualizador de PDF configurado.
 
 SEM UTILIZAR O KILE:
-====================
+--------------------
 
 1) Verifique a disponibilidade do LaTeX e do pacote Beamer. Em quase todas as distribuições é possível 
 instalar um pacote chamado TeXLive que contém os pacotes padrão (incluindo o beamer, para apresentações).
