@@ -9,7 +9,7 @@ UTILIZANDO O KDE/KILE:
 ----------------------
 
 1) Instale o Kile, caso ainda não esteja instalado. Com esse passo, você garante a instalação dos pacotes 
-necessário para rodar o LaTeX e gerar a apresentação em PDF.
+necessários para rodar o LaTeX e gerar a apresentação em PDF.
 
 2) Abra o arquivo slideskde.tex no Kile.
 
